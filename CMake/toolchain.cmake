@@ -24,7 +24,7 @@ set(TARGET_STM32F411E_DISCO_GCC_TOOLCHAIN_INCLUDED 1)
 # definition that you're about to add to rely on the TARGET_LIKE_XXX
 # definitions that yotta provides based on the target.json file.
 #
-add_definitions("-DTARGET_STM32F411E_DISCO -DTARGET_STM32F411VE -DSTM32F411xx -DTARGET_STM32F4 -DTOOLCHAIN_GCC -DTOOLCHAIN_GCC_ARM")
+add_definitions("-DTARGET_STM32F411E_DISCO -DTARGET_STM32F411VE -DSTM32F411xE -DTARGET_STM32F4 -DTOOLCHAIN_GCC -DTOOLCHAIN_GCC_ARM")
 
 # append non-generic flags, and set STM32F4-specific link script
 
