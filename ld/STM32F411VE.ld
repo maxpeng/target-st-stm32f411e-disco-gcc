@@ -24,7 +24,7 @@ MEMORY
    * Refer RM0383: Table 37. Vector table for STM32F411xC/E.
    *  4 * (16 + 86) = 408 = 0x198
    */
-  RAM (rwx)             : ORIGIN = 0x200001AC, LENGTH = 128k - 0x198
+  RAM (rwx)             : ORIGIN = 0x20000198, LENGTH = 128k - 0x198
 }
 
 /* Linker script to place sections and symbol values. Should be used together
