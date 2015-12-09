@@ -87,7 +87,7 @@ SECTIONS
 
         . = ALIGN(32);
         __uvisor_bss_end = .;
-    } > CCM
+    } > RAM /*CCM*/
 
     .text :
     {
