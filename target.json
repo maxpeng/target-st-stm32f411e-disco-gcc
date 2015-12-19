@@ -4,7 +4,7 @@
   "inherits": {
     "mbed-gcc": "*"
   },
-  "description": "Unofficial mbed build target for the mbed stm32f411e-disco development board.",
+  "description": "mbed build target for the mbed stm32f411e-disco development board.",
   "licenses": [
     {
       "url": "https://spdx.org/licenses/Apache-2.0",
@@ -13,7 +13,6 @@
   ],
   "keywords": [
     "mbed-target:discovery-f411ve",
-    "mbed-unofficial",
     "stm32f411e-disco",
     "gcc"
   ],
